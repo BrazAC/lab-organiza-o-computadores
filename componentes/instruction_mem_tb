@@ -1,0 +1,39 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity instruction_mem_tb is
+end instruction_mem_tb;
+
+architecture sim of instruction_mem_tb is
+	--Importar o UUT
+	component instruction_mem is
+		port(a: in std_logic_vector(31 downto 0);   -- Parramento de end.
+			  rd: out std_logic_vector(31 downto 0)); -- Barramento de dados
+	end component;
+	
+	--Sinais para interagir com o UUT
+	signal a, rd: std_logic_vector(31 downto 0);
+begin
+	--Conectar os sinais com o UUT
+	inst_mem: instruction_mem port map(a => a, rd => rd);
+	
+	--Gerar estimulos para interagir com UUT
+	process begin
+		--Ler dado no end 1
+		a <= x"00000000";
+		
+		wait for 10ns;
+		--Ler dado no end 4
+		a <= x"00000004";
+		
+		wait for 10ns;
+		--Ler dado no end 8
+		a <= x"00000008";
+		
+		wait for 10ns;
+		--Ler dado no end 12
+		a <= x"0000000c";
+		
+		wait; --so executar process uma vez
+	end process;
+end sim;
