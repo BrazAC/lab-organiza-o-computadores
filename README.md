@@ -1,7 +1,7 @@
 ### Aula 05/11
 - Como simular um circuito
   - Crie o projeto com o circuito (normalmente, a unica diferença é que vc vai ter que adicionar essa config de simulação)
-  - <img width="619" height="239" alt="image" src="https://github.com/user-attachments/assets/0cd8696a-f5aa-4968-ae6e-118c63a58115" />
+  - <img width="419" height="233" alt="image" src="https://github.com/user-attachments/assets/026d3af5-6b8c-4fa5-97a4-a5e45511dab4" />
   - Escreva os arquivos vhdl normalmente
   - Crie um testbench (nomeModule_tb.vhd.)
     - Crie um arquivo vhdl (ele será o testbecnh)
