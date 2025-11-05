@@ -17,5 +17,11 @@
     - na aba library ficam o "work" que tem os arquivos vc ira compilar do projeto
     - <img width="184" height="101" alt="image" src="https://github.com/user-attachments/assets/71631167-7ecb-4476-98cd-4ffe44968b80" />
     - selecione "work", e no menu superior va para: compile -> compile all
+    - compilado, botao direito em cima do nomeModule_tb -> simulate
+  - Simule usando o questa
+    - apoós iniciar a simulação, selecione os objetos e adicione wave
+    - <img width="453" height="208" alt="image" src="https://github.com/user-attachments/assets/eb3df166-b36d-4ae2-b971-7874af1138b8" />
+    
+    
 
     
